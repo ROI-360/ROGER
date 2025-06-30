@@ -1,1 +1,279 @@
-# ROGER
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta Estratégica | Gestão de Performance para Serramar Trekking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(180deg, #1A202C 0%, #2D3748 100%);
+        }
+        .section-gradient-box {
+            background: linear-gradient(135deg, #2D3748 0%, #1A202C 100%);
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+        }
+        .strong-shadow-box {
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 1), 0px 20px 60px rgba(0, 0, 0, 0.8);
+            background-color: #2D3748;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .strong-shadow-box .card-content {
+            flex-grow: 1;
+        }
+        .icon-highlight {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 0.75rem;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 1), 0px 0px 30px rgba(0, 0, 0, 0.8);
+        }
+        .title-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .plan-button {
+            background: #4CAF50;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border-radius: 999px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+            display: inline-block;
+            margin-top: auto;
+        }
+        .plan-button:hover {
+            background: #388e3c;
+        }
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 1.5rem;
+            height: 100%;
+            width: 4px;
+            background: #4CAF50;
+            border-radius: 2px;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 4rem;
+            margin-bottom: 2rem;
+        }
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+        .timeline-icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: #2D3748;
+            border: 4px solid #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body class="bg-[#1A202C] text-gray-200">
+
+    <main id="maincontent" class="container mx-auto p-2 sm:p-4 md:p-8">
+
+        <header class="text-center py-6 md:py-8">
+            <div class="section-gradient-box p-4 sm:p-8 max-w-5xl">
+                <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold text-[#4CAF50] leading-tight mb-4 title-shadow">Plano de Ação Estratégico: Serramar Trekking</h1>
+                <p class="text-lg sm:text-xl md:text-2xl text-white max-w-4xl mx-auto mb-4 title-shadow">
+                    <strong>Roger, obrigado pelo seu tempo.</strong> Analisei sua operação e vejo um potencial imenso. O que vou apresentar não é apenas gestão de tráfego, mas um <strong>plano de crescimento faseado</strong> para transformar a Serramar Trekking em uma referência, com previsibilidade e lucro.
+                </p>
+                <h2 class="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-4 title-shadow">Construindo um Negócio de Aventura Sólido</h2>
+                <p class="text-base sm:text-lg md:text-xl text-white max-w-3xl mx-auto mb-4 title-shadow">
+                    Vamos sair da dependência de indicações e criar um sistema de aquisição de clientes que trabalha para você.
+                </p>
+            </div>
+        </header>
+
+        <section class="py-6 sm:py-8">
+            <div class="section-gradient-box p-4 sm:p-8 max-w-5xl">
+                <h2 class="text-2xl sm:text-4xl font-bold text-[#4CAF50] mb-8 text-center title-shadow">Plano de Ação: A Trilha para o Sucesso</h2>
+                <p class="text-white mt-2 max-w-3xl mx-auto mb-12 text-center title-shadow">Nossa parceria será dividida em fases claras, cada uma com objetivos e entregáveis definidos para garantir um crescimento sustentável e mensurável.</p>
+                
+                <div class="timeline max-w-3xl mx-auto">
+                    <!-- Fase 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">1</div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 title-shadow">Fase 1: Fundação Estratégica (Mês 1)</h3>
+                        <p class="text-gray-300">O alicerce de todo o projeto. Aqui, garantimos que cada real investido seja direcionado com máxima inteligência.</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-4 space-y-1">
+                            <li><strong>Diagnóstico 360°:</strong> Análise de mercado, concorrência e diferenciais da Serramar.</li>
+                            <li><strong>Definição de Avatar:</strong> Mapeamento profundo do cliente ideal (dores, desejos, objeções).</li>
+                            <li><strong>Estruturação de Contas:</strong> Configuração profissional do Gerenciador de Anúncios e Pixel.</li>
+                            <li><strong>Planejamento de Campanhas:</strong> Definição dos primeiros roteiros a serem impulsionados.</li>
+                        </ul>
+                    </div>
+                    <!-- Fase 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">2</div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 title-shadow">Fase 2: Ativação e Aquisição (Mês 1-2)</h3>
+                        <p class="text-gray-300">Com a base pronta, iniciamos a atração de clientes qualificados, gerando os primeiros resultados e validando as estratégias.</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-4 space-y-1">
+                            <li><strong>Lançamento das Campanhas:</strong> Ativação dos anúncios com foco em conversão (mensagens/leads).</li>
+                            <li><strong>Criação de Anúncios de Impacto:</strong> Desenvolvimento de criativos (vídeos/imagens) e copy persuasiva.</li>
+                            <li><strong>Geração de Fluxo de Leads:</strong> Aumento do volume de contatos interessados nos roteiros.</li>
+                            <li><strong>Primeiras Otimizações:</strong> Análise inicial de métricas e ajustes para melhorar performance.</li>
+                        </ul>
+                    </div>
+                    <!-- Fase 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">3</div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 title-shadow">Fase 3: Otimização e Escala (Mês 3-4)</h3>
+                        <p class="text-gray-300">É hora de refinar a máquina. Usamos os dados para diminuir custos, aumentar o lucro e preparar para um crescimento acelerado.</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-4 space-y-1">
+                            <li><strong>Análise de Dados e Testes A/B:</strong> Otimização contínua de públicos, criativos e ofertas.</li>
+                            <li><strong>Implementação de Remarketing:</strong> Campanhas para re-impactar quem já demonstrou interesse.</li>
+                            <li><strong>Redução do Custo por Aquisição (CPA):</strong> Foco em tornar a aquisição de clientes mais barata.</li>
+                            <li><strong>Escala Controlada:</strong> Aumento gradual do investimento nos anúncios que mais performam.</li>
+                        </ul>
+                    </div>
+                    <!-- Fase 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">4</div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white mb-2 title-shadow">Fase 4: Dominação e Autoridade (Contínuo)</h3>
+                        <p class="text-gray-300">Consolidamos a Serramar Trekking como a principal escolha na região, criando um ativo de marketing de longo prazo.</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-4 space-y-1">
+                            <li><strong>Construção de Funil de Vendas:</strong> Estratégias para nutrir leads e vender múltiplos roteiros.</li>
+                            <li><strong>Expansão de Canais (Opcional):</strong> Testes em outras plataformas como Google Ads.</li>
+                            <li><strong>Fortalecimento da Marca:</strong> Campanhas de alcance e reconhecimento para solidificar a autoridade.</li>
+                            <li><strong>Consultoria Estratégica:</strong> Análise de novas oportunidades de roteiros e ofertas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-6 sm:py-8">
+            <div class="section-gradient-box p-4 sm:p-8 max-w-6xl">
+                <h2 class="text-2xl sm:text-4xl font-bold text-[#4CAF50] mb-4 text-center title-shadow">Planos de Parceria Estratégica</h2>
+                <p class="text-white mt-2 max-w-3xl mx-auto mb-12 text-center title-shadow">Cada plano foi desenhado para acompanhar uma fase do seu crescimento. O investimento nos anúncios (orçamento diário) é flexível e pago diretamente às plataformas.</p>
+            
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+                    <!-- Plano Desbravador -->
+                    <div class="p-6 rounded-lg strong-shadow-box text-center">
+                        <div class="card-content">
+                            <div class="icon-highlight">🧭</div>
+                            <h3 class="text-xl font-bold text-white title-shadow">Plano Desbravador</h3>
+                            <p class="text-sm text-gray-400">Ideal para Fases 1 e 2</p>
+                            <p class="text-4xl font-bold text-[#4CAF50] mt-4">R$ 900<span class="text-lg font-semibold text-white">/mês</span></p>
+                            <ul class="text-left text-sm text-white mt-6 space-y-2">
+                                <li>✔️ Diagnóstico e Planejamento</li>
+                                <li>✔️ Gestão de até 2 Campanhas</li>
+                                <li>✔️ Foco no Roteiro Principal</li>
+                                <li>✔️ Criação de 4 Criativos/mês</li>
+                                <li>✔️ Segmentação de Público Essencial</li>
+                                <li>✔️ Relatório Quinzenal de Performance</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="plan-button mt-6">Iniciar Jornada</a>
+                    </div>
+
+                    <!-- Plano Conquistador (Recomendado) -->
+                    <div class="p-6 rounded-lg strong-shadow-box text-center border-4 border-[#4CAF50] transform scale-105 relative">
+                        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#4CAF50] text-white text-sm font-bold px-4 py-1 rounded-full">MAIS POPULAR</div>
+                         <div class="card-content">
+                            <div class="icon-highlight">🌲</div>
+                            <h3 class="text-xl font-bold text-white title-shadow">Plano Conquistador</h3>
+                            <p class="text-sm text-gray-400">Ideal para Fases 2 e 3</p>
+                            <p class="text-4xl font-bold text-[#4CAF50] mt-4">R$ 1.400<span class="text-lg font-semibold text-white">/mês</span></p>
+                            <ul class="text-left text-sm text-white mt-6 space-y-2">
+                                <li>✔️ <strong>Tudo do Desbravador</strong></li>
+                                <li>✔️ Gestão de até 4 Campanhas</li>
+                                <li>✔️ Criação de 8 Criativos/mês</li>
+                                <li>✔️ <strong>Campanhas de Remarketing</strong></li>
+                                <li>✔️ <strong>Testes A/B para Otimização</strong></li>
+                                <li>✔️ Relatório Semanal Detalhado</li>
+                                <li>✔️ Suporte Prioritário via WhatsApp</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="plan-button mt-6">Acelerar Crescimento</a>
+                    </div>
+
+                    <!-- Plano Expedicionário -->
+                    <div class="p-6 rounded-lg strong-shadow-box text-center">
+                         <div class="card-content">
+                            <div class="icon-highlight">🏔️</div>
+                            <h3 class="text-xl font-bold text-white title-shadow">Plano Expedicionário</h3>
+                            <p class="text-sm text-gray-400">Ideal para Fases 3 e 4</p>
+                            <p class="text-4xl font-bold text-[#4CAF50] mt-4">R$ 2.100<span class="text-lg font-semibold text-white">/mês</span></p>
+                            <ul class="text-left text-sm text-white mt-6 space-y-2">
+                                <li>✔️ <strong>Tudo do Conquistador</strong></li>
+                                <li>✔️ Gestão de Campanhas Ilimitadas</li>
+                                <li>✔️ <strong>Desenvolvimento de Funil de Vendas</strong></li>
+                                <li>✔️ Criação de 12 Criativos/mês</li>
+                                <li>✔️ Otimização de Perfil (Instagram)</li>
+                                <li>✔️ Reunião Estratégica Mensal</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="plan-button mt-6">Dominar o Território</a>
+                    </div>
+                    
+                    <!-- Plano Cume -->
+                    <div class="p-6 rounded-lg strong-shadow-box text-center">
+                         <div class="card-content">
+                            <div class="icon-highlight">🏆</div>
+                            <h3 class="text-xl font-bold text-white title-shadow">Plano Cume</h3>
+                            <p class="text-sm text-gray-400">Parceria Estratégica Completa</p>
+                            <p class="text-4xl font-bold text-[#4CAF50] mt-4">R$ 3.000<span class="text-lg font-semibold text-white">/mês</span></p>
+                            <ul class="text-left text-sm text-white mt-6 space-y-2">
+                                <li>✔️ <strong>Tudo do Expedicionário</strong></li>
+                                <li>✔️ <strong>Gestão Multi-Canal (Google Ads)</strong></li>
+                                <li>✔️ Acompanhamento de Vendas</li>
+                                <li>✔️ Consultoria de Negócio Contínua</li>
+                                <li>✔️ Relatórios Gerenciais Avançados</li>
+                                <li>✔️ Acesso Direto e Imediato</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="plan-button mt-6">Alcançar o Cume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-6 sm:py-8 text-center">
+            <div class="section-gradient-box p-4 sm:p-8 max-w-4xl">
+                <h2 class="text-2xl sm:text-4xl font-bold text-[#4CAF50] mb-4 flex items-center justify-center title-shadow">
+                    <span class="icon-highlight mr-4">🚀</span> Próximo Passo: Iniciar a Jornada
+                </h2>
+                <p class="text-base sm:text-lg text-white max-w-3xl mx-auto mb-8 title-shadow">
+                    Roger, este plano é o mapa para levarmos a Serramar Trekking ao próximo nível. Com consistência e estratégia, os resultados são uma consequência natural. Meu compromisso é com o seu crescimento.
+                </p>
+                <p class="text-base sm:text-lg text-white max-w-3xl mx-auto mb-8 title-shadow">
+                    <strong>Bônus de Ação Rápida:</strong> Ao iniciarmos a parceria nos próximos <strong>2 dias</strong>, eu incluo a <strong>análise e otimização completa do seu perfil no Instagram</strong> para maximizar a conversão do tráfego que vamos gerar.
+                </p>
+                <a href="#" class="plan-button text-lg">Vamos Começar a Escalar</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
